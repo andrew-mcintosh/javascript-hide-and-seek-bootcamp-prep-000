@@ -16,12 +16,8 @@ return test;
 }
 
 function increaseRankBy(n) {
-  var rankedList = document.querySelectorAll('.ranked-list');
-  
-  for (let i = 0; i < rankedlist.length; i++);
-    var children = rankedList[i].children;
-   
-  for (let j = 0, k = children.length; j < k; j++) { 
-      children[j].innerHTML = parseInt(children[j].innerHTML) + n;
+  var rankedList = document.getElementById("app").querySelectorAll("ul.ranked-list li");
+  for(let i = 0;i < rankedList.length; i++) {
+    rankedList[i].innerHTML = parseInt(rankedList[i].innerHTML) + n;
   }
 }
