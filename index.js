@@ -16,5 +16,10 @@ return test;
 }
 
 function increaseRankBy(n) {
+  var rankedList = document.querySelectorAll('.ranked-list');
   
+  for (let i = 0; i < rankedlist.length; i++);
+    var children = rankedList.children;
+    
+  for (let j = 0; j )
 }
