@@ -22,5 +22,5 @@ function increaseRankBy(n) {
     var children = rankedList[i].children;
     
   for (let j = 0; k = children.length; j < k; j++);
-  
+      children[j].innerHTML = 
 }
