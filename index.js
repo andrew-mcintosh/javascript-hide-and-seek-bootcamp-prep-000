@@ -19,7 +19,7 @@ function increaseRankBy(n) {
   var rankedList = document.querySelectorAll('.ranked-list');
   
   for (let i = 0; i < rankedlist.length; i++);
-    var children = rankedList.children;
+    var children = rankedList[i].children;
     
-  for (let j = 0; j )
+  for (let j = 0; k = children )
 }
